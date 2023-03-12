@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./pexels-brakou-abdelghani-1723637.jpg");
+  background-size: 1230px 1200px;
+
 }
 
 code {
