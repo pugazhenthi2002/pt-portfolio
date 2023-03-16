@@ -18,7 +18,7 @@ function App() {
       <nav className="home_top">
             <div><h1>Pugazhenthi Thaniarasu I R</h1></div>
                 <div className="nav">
-                  <Link to="/">Home</Link>
+                  <Link to="/home">Home</Link>
                   <Link to="/project">Project</Link>
                   <Link to="/skill">Skills</Link>
                   <Link to="/qualification">Qualification</Link>
@@ -63,7 +63,7 @@ function App() {
         </div>
         <div className="details">
           <Routes>
-            <Route index element={<Home/>}/>
+            <Route path="/home" element={<Home/>}/>
             <Route path="/skill" element={<Skills/>}/>
             <Route path="/qualification" element={<Qualification/>}/> 
             <Route path="/project" element={<Project/>}/>
