@@ -49,7 +49,7 @@ function App() {
             </tr>
             <tr>
               <th>D.O.B:</th>
-              <td>11/10/2002</td>
+              <td>11/10/1002</td>
             </tr>
             <tr>
               <th>Martial Status:</th>
